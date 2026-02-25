@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 25, 2026 at 09:44 AM
+-- Generation Time: Feb 25, 2026 at 09:57 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -175,10 +175,10 @@ CREATE TABLE `study_plan` (
 --
 
 INSERT INTO `study_plan` (`plan_id`, `program_id`, `course_id`, `semester`, `academic_year`) VALUES
-(3, 1, 'CS101', 1, 2567),
-(4, 1, 'CS102', 1, 2567),
-(5, 1, 'CS101', 1, 2567),
-(6, 1, 'CS102', 1, 2567);
+(3, 715, 'CS101', 1, 2567),
+(4, 715, 'CS102', 1, 2567),
+(5, 715, 'CS101', 1, 2567),
+(6, 715, 'CS102', 1, 2567);
 
 -- --------------------------------------------------------
 
@@ -288,7 +288,7 @@ ALTER TABLE `registration_details`
 -- AUTO_INCREMENT for table `study_plan`
 --
 ALTER TABLE `study_plan`
-  MODIFY `plan_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `plan_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `users`
